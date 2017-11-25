@@ -1,0 +1,24 @@
+{
+    "name": "webboy/openload-client",
+    "description": "PHP client for openload.co API",
+    "version" : "1.0",
+    "keywords": ["openload", "client", "laravel","webboy"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "webboy",
+            "email": "extramedia.nemanja@gmail.com",
+            "homepage": "https://www.linkedin.com/in/nemanja-milenkovic-1477083b",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webboy\\Openload-Client\\": "src"
+        }
+    }
+}
